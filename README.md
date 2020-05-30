@@ -2,7 +2,8 @@
 This android App provides creating events. App syncs events with server.
 
 CalendarLib was taken from here - https://github.com/hugomfandrade/CalendarView-Widget
-Thx to author.
+
+Thanks to the author
 
 ## Screenshots:
 
