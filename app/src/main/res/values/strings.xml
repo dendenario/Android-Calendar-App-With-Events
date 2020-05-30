@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">Sber Calendar</string>
+    <string name="title_activity_simple_calendar_view" translatable="false">Simple CalendarView</string>
+    <string name="title_activity_mini_calendar_view_popup" translatable="false">CalendarView Popup</string>
+    <string name="today">сегодня</string>
+    <string name="cancel">отмена</string>
+    <string name="ok">ок</string>
+    <string name="new_event">Новое событие</string>
+    <string name="save">сохранить</string>
+    <string name="title">Заголовок</string>
+    <string name="completed">Выполенено</string>
+    <string name="set">установить</string>
+    <string name="double_dots" translatable="false">:</string>
+    <string name="select_color_instruction">Выбрать цвет события</string>
+    <string name="event_default_title">Мое событие</string>
+    <string name="no_events">нет событий</string>
+    <string name="delete">удалить</string>
+    <string name="profile" translatable="false">Профиль</string>
+    <string name="edit" translatable="false">редактировать</string>
+    <string name="name_surname" translatable="false">Имя Фамилия</string>
+    <string name="work" translatable="false" tools:ignore="DuplicateDefinition">Должность</string>
+    <string name="Role" translatable="false">Роль</string>
+    <string name="enter_password" translatable="false">Введите пароль</string>
+    <string name="enter_login" translatable="false">Введите логин</string>
+    <string name="user" translatable="false">Пользователь</string>
+    <string name="completed_tasks" translatable="false">Выполненые задачи</string>
+    <string name="_12" translatable="false">12</string>
+    <string name="name" translatable="false">Имя</string>
+    <string name="surname" translatable="false">Фамилия</string>
+    <string name="CurTasks" translatable="false">Текущие задачи</string>
+    <string name="desc">Описание работ</string>
+</resources>

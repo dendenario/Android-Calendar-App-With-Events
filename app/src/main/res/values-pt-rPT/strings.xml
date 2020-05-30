@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="today" tools:ignore="ExtraTranslation">hoje</string>
+    <string name="cancel" tools:ignore="ExtraTranslation">cancelar</string>
+    <string name="ok" tools:ignore="ExtraTranslation">ok</string>
+    <string name="new_event" tools:ignore="ExtraTranslation">Novo Evento</string>
+    <string name="save" tools:ignore="ExtraTranslation">guardar</string>
+    <string name="title" tools:ignore="ExtraTranslation">Título</string>
+    <string name="completed" tools:ignore="ExtraTranslation">Completo</string>
+    <string name="set" tools:ignore="ExtraTranslation">concluído</string>
+    <string name="select_color_instruction" tools:ignore="ExtraTranslation">Seleccionar cor do evento</string>
+    <string name="event_default_title" tools:ignore="ExtraTranslation">O meu evento</string>
+    <string name="no_events" tools:ignore="ExtraTranslation">Sem eventos ou tarefas</string>
+    <string name="delete" tools:ignore="ExtraTranslation">eliminar</string>
+</resources>

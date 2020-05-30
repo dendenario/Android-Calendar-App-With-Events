@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundFloating"
+    tools:context=".CalendarViewWithNotesActivitySDK21">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        app:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:subtitleTextAppearance="@style/AppTheme.SubTitleText"
+            app:titleTextAppearance="@style/AppTheme.TitleText" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <org.hugoandrade.calendarviewlib.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_marginTop="84dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:content_background_color="#fff"
+        app:week_header_background_color="#fff"
+        app:week_header_text_color="?attr/colorPrimary"
+        app:current_day_circle_enable="true"
+        app:month_header_show="false"
+        app:week_header_movable="false" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:tint="#fff"
+        app:elevation="0dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</android.support.design.widget.CoordinatorLayout>
